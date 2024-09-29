@@ -1,6 +1,6 @@
 # GraphQL data graph
 
-The [Apollo GraphQL](https://www.apollographql.com/) data graph is available at [`https://pure-shore-08635.herokuapp.com/graphql`](https://pure-shore-08635.herokuapp.com/graphql). I enabled the GraphQL playground so you can look at schema documentation and test out queries
+The [Apollo GraphQL](https://www.apollographql.com/) data graph is available at [`https://pixar-data-graph.vercel.app/graphql`](https://pixar-data-graph.vercel.app/graphql). I enabled the GraphQL playground so you can look at schema documentation and test out queries
 
 ## Queries
 

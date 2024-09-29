@@ -17,8 +17,8 @@ import { typography, button, table } from '@melhosseiny/aurora'; // eslint-disab
 import '@/assets/theme.css';
 
 const httpLink = createHttpLink({
-  //uri: 'http://localhost:4000/graphql'
-  uri: 'https://pure-shore-08635.herokuapp.com/graphql'
+//  uri: 'http://localhost:4000/graphql'
+  uri: 'https://pixar-data-graph.vercel.app/graphql'
 });
 
 const cache = new InMemoryCache();
