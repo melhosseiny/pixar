@@ -23,7 +23,7 @@
     "@apollo/client": "^3.2.5",
     "@melhosseiny/aurora": "0.0.5",
     "@melhosseiny/vue-aurora": "0.0.5",
-    "@vue/apollo-option": "^4.0.0-alpha.11",
+    "@vue/apollo-option": "4.0.0-alpha.11",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "graphql": "^15.4.0",
@@ -68,7 +68,7 @@
     "webpack-merge": "^5.2.0"
   },
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "browserslist": {
     "development": [
