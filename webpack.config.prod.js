@@ -3,6 +3,7 @@ const common = require('./webpack.config.js');
 const path = require('path');
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = merge(common, {
   mode: 'production',
@@ -29,6 +30,12 @@ module.exports = merge(common, {
     ]
   },
   plugins: [
+    new CopyWebpackPlugin({
+      patterns: [{
+        from: path.resolve(__dirname, 'static'),
+        to: path.resolve(__dirname, 'dist'),
+      }],
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',
