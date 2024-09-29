@@ -45,7 +45,7 @@
               </h2>
             </div>
             <div :class="$style.score">
-              {{ movie.score }}
+              {{ movie.score | round }}
             </div>
           </article>
         </a>
@@ -130,7 +130,7 @@ export default {
     return {
       movieId: undefined,
       resultIndex: 0,
-      page: 2
+      page: 1
     }
   },
   methods: {

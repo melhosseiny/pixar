@@ -4,11 +4,12 @@ import router from './router';
 import { ApolloClient, createHttpLink, InMemoryCache } from '@apollo/client/core';
 import VueApollo from '@vue/apollo-option';
 import { VToastPlugin } from '@melhosseiny/vue-aurora';
-import { date } from './filters';
+import { date, round } from './filters';
 
 Vue.use(VueApollo);
 Vue.use(VToastPlugin);
 Vue.filter('date', date);
+Vue.filter('round', round);
 
 import App from './App.vue';
 
